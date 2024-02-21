@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+     <!-- Мета-інформація для кодування та налаштування ширини екрану -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Information</title>
+</head>
+<body>
+    <!-- Заголовок сторінки -->
+  <h1>Personal Information</h1>
+  <!-- Форма для введення особистої інформації -->
+  <form action="#">
+    <!-- Поле для введення імені -->
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <!-- Поле для введення віку -->
+    <label for="age">Your age:</label>
+    <input type="number" id="age" name="age" placeholder="Enter your age">
+    <!-- Поле для введення паролю -->
+    <label for="password">Your password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <!-- Радіо-кнопки для вибору статі -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <br>
+<!-- Випадаючий список для вибору міста -->
+    <label for="city">Your city:</label>
+    <select id="city" name="city">
+      <option value="">Select a city</option>
+      <option value="kyiv">Kyiv</option>
+      <option value="lviv">Lviv</option>
+      <option value="Shepetivka">Shepetivka</option>
+    </select>
+
+    <br>
+<!-- Текстове поле для введення повідомлення -->
+    <label for="message">Your message:</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+    <br>
+<!-- Кнопка для відправки форми -->
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
